@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ <link rel="stylesheet" href="./styles/styles.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | QR code component</title>
+
+  
+ 
+</head>
+<body class="flex justify-center items-center min-h-screen">
+
+  <!-- Container principal -->
+  <div class="bg-white rounded-lg shadow-lg p-4 max-w-sm md:max-w-md lg:max-w-lg">
+    <!-- QR Code -->
+    <div class="flex justify-center">
+      <img src="./images/image-qr-code.png" alt="QR Code" class="cursor-pointer h-40 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-md ">
+    </div>
+    
+    <!-- Título -->
+    <h1 class="text-center text-xl font-semibold text-slate-900  mt-6">
+      Improve your front-end <br>
+      skills by building projects
+    </h1>
+    
+    <!-- Descrição -->
+    <p class="text-center text-gray-700 mt-4">
+      Scan the QR code to visit Frontend <br>
+       Mentor and take your coding skills to <br>
+       the next level
+    </p>
+  </div>
+  <script>
+    document.querySelector('img').addEventListener('click', function() {
+      window.location.href = 'https://www.frontendmentor.io';
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Configurações de Cores */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+}
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: var(--color-slate-300);
+  }
+
+  h1 {
+    color: var(--color-slate-900);
+  }
+
+  p {
+    color: var(--color-slate-500);
+  }
+
+
+/* Exemplo de uso das cores personalizadas */
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.text-slate-300 {
+  color: var(--color-slate-300);
+}
+
+.text-slate-500 {
+  color: var(--color-slate-500);
+}
+
+.text-slate-900 {
+  color: var(--color-slate-900);
+}
